@@ -37,5 +37,7 @@ s.add(Jim - Bob == 1)
 s.add(Or(Lisa == 1, Mary == 1))
 
 # find the solution
-print(s.check())
-print(s.model())
+print("Solver.Check", s.check())
+print("Solution", s.model())
+
+
